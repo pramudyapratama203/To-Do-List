@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-text {
+    flex-grow: 1;
+}
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+.complete {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+#task {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+}
+#add {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 10px;
+}
